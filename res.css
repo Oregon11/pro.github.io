@@ -102,11 +102,12 @@ footer li {
   margin: 2rem;
 }
 
+}
 
+@media all and (max-width: 550px) {
 
-
-
-
-
+  .inputs {
+    width: 78%;
+  }
 
 }
