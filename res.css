@@ -1,0 +1,110 @@
+@media all and (max-width: 1000px) {
+
+#header li {
+  display: none;
+}
+
+.big, .side {
+  width: 100%;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.post-img {
+  display: inline-block;
+  width: 100%;
+}
+
+.post-img img {
+  height: 110px;
+}
+
+.rec {
+  margin-bottom: 3rem;
+  display: inline-block;
+  width: 100%;
+}
+.rec img {
+  padding-bottom: 1rem;
+   height: 130px;
+}
+
+.ft-jin, .archives, .ft-cate, .popular {
+  width: 100%;
+}
+
+.down {
+  width: 80%;
+}
+
+.archives, .ft-cate, .popular {
+  margin-left: 0;
+}
+
+footer h4 {
+  padding-bottom: 1rem;
+  border-left: none;
+  border-bottom: 3px solid #9acc1e;
+}
+
+footer li {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1.6rem;
+}
+
+.po-bt {
+  margin-bottom: 1rem;
+  display: inline-block;
+  width: 100%;
+}
+.po-bt:nth-child(3) {
+  margin-bottom: 1rem;
+}
+
+.po-bt img {
+   height: 130px;
+}
+
+.card:nth-child(even) {
+  margin-right: 0;
+}
+
+
+
+
+
+
+}
+
+
+@media all and (max-width: 770px) {
+
+.card h1 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.post-img img {
+  height: 90px;
+}
+.rec img {
+   height: 100px;
+}
+.po-bt img {
+   height: 90px;
+}
+
+.up-jin p {
+  margin: 2rem;
+}
+
+
+
+
+
+
+
+
+}
